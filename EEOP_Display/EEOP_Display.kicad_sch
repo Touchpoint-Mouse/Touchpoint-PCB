@@ -1017,6 +1017,771 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FH34SRJ-32S-0.5SH_50_:FH34SRJ-32S-0.5SH_50_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.58 43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "FH34SRJ-32S-0.5SH_50_"
+				(at -5.08 -48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "FH34SRJ-32S-0.5SH_50_:HRS_FH34SRJ-32S-0.5SH_50_"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "26-FH34SRJ-32S-0.5SH(50)CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/FH34SRJ-32S-0.5SH(50)/Hirose+Electric+Co+Ltd/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "32 Position FFC, FPC Connector Contacts, Top and Bottom 0.020 (0.50mm) Surface Mount, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/FH34SRJ-32S-0.5SH(50)/Hirose+Electric+Co+Ltd/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Hirose Electric Co Ltd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "FH34SRJ-32S-0.5SH(50)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "HRS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "FH34SRJ-32S-0.5SH_50__0_0"
+				(rectangle
+					(start -5.08 -45.72)
+					(end 5.08 43.18)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 40.64 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 38.1 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 35.56 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 33.02 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 30.48 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 27.94 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 25.4 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 22.86 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 20.32 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 17.78 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 15.24 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 12.7 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -12.7 0)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -15.24 0)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -17.78 0)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -20.32 0)
+					(length 5.08)
+					(name "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -22.86 0)
+					(length 5.08)
+					(name "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -25.4 0)
+					(length 5.08)
+					(name "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -27.94 0)
+					(length 5.08)
+					(name "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -30.48 0)
+					(length 5.08)
+					(name "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -33.02 0)
+					(length 5.08)
+					(name "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -35.56 0)
+					(length 5.08)
+					(name "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -38.1 0)
+					(length 5.08)
+					(name "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -43.18 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -43.18 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 128.27 118.11)
+		(uuid "ca712212-326f-4436-93d6-17aef55d257a")
 	)
 	(label "E17"
 		(at 107.95 74.93 0)
@@ -1819,33 +2584,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x32")
-		(at 102.87 74.93 180)
+		(lib_id "FH34SRJ-32S-0.5SH_50_:FH34SRJ-32S-0.5SH_50_")
+		(at 118.11 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c05ea19b-156e-47be-a022-3f765dec8380")
+		(uuid "d2453b32-bea1-433e-92dd-c5bc4a1413c7")
 		(property "Reference" "J1"
-			(at 102.87 27.94 0)
+			(at 118.11 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x32"
-			(at 102.87 30.48 0)
+		(property "Value" "FH34SRJ-32S-0.5SH_50_"
+			(at 118.11 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-32S-0.5SH_1x32-1MP_P0.50mm_Horizontal"
-			(at 102.87 74.93 0)
+		(property "Footprint" "Touchpoint:HRS_FH34SRJ-32S-0.5SH_50_"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,8 +2628,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 102.87 74.93 0)
+		(property "Description" ""
+			(at 118.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,110 +2637,187 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x32, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 74.93 0)
+		(property "DigiKey_Part_Number" "26-FH34SRJ-32S-0.5SH(50)CT-ND"
+			(at 118.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "11"
-			(uuid "367e9f80-71b4-4c8a-aaa9-e3285439cff4")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FH34SRJ-32S-0.5SH(50)/Hirose+Electric+Co+Ltd/view-part/?ref=snap"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "12"
-			(uuid "cd02cabc-f0b0-48da-950c-ec0dca457ead")
+		(property "Description_1" "32 Position FFC, FPC Connector Contacts, Top and Bottom 0.020 (0.50mm) Surface Mount, Right Angle"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "beeb5036-daf2-4999-8895-77e381a5fdd4")
+		(property "Package" "None"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "5573d2fd-e171-45e6-aa32-52288c759275")
+		(property "Check_prices" "https://www.snapeda.com/parts/FH34SRJ-32S-0.5SH(50)/Hirose+Electric+Co+Ltd/view-part/?ref=eda"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "85f35d87-d81f-483a-83cf-650b61e617e4")
+		(property "MF" "Hirose Electric Co Ltd"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "7"
-			(uuid "21d19ed9-f5eb-44db-b11e-67e311617461")
+		(property "MP" "FH34SRJ-32S-0.5SH(50)"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "8e396303-cf1e-4c45-b0db-a25982eb926c")
-		)
-		(pin "8"
-			(uuid "391ddf18-e7e4-4b11-975c-f1742632cdb8")
-		)
-		(pin "9"
-			(uuid "7a6e173c-02cf-4589-9202-a9c0d0f8d416")
-		)
-		(pin "10"
-			(uuid "665b84ab-d079-43f4-8bf5-eb427c6c7b1d")
-		)
-		(pin "18"
-			(uuid "8ff9b169-2ee4-4da3-b0dd-8b1a89718ecc")
-		)
-		(pin "30"
-			(uuid "57f8db1b-f0c0-40d2-b4bf-f1e0d1b4a163")
-		)
-		(pin "31"
-			(uuid "4c57c1ba-3f50-401a-9d64-aca0a35ed87b")
-		)
-		(pin "21"
-			(uuid "d7201e5c-af5c-4553-80e5-35f9eda57f13")
-		)
-		(pin "2"
-			(uuid "bd1e0ee0-f848-4024-b027-8e207db86839")
+		(property "MANUFACTURER" "HRS"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "5"
-			(uuid "a887b92f-89e2-40e4-a3e2-d58ec3816d38")
+			(uuid "a8eabdd7-26a5-4400-b850-ad9245f58f9c")
 		)
-		(pin "19"
-			(uuid "2fbfd350-c76e-4fc5-9085-2e7ecaca1a28")
+		(pin "6"
+			(uuid "1638e57a-24c5-44cc-91ab-a1f1375142c4")
 		)
-		(pin "22"
-			(uuid "e0df7743-5e14-40e9-9309-ae810dd55de0")
+		(pin "1"
+			(uuid "6caac921-cef4-4548-be44-4bea135ac883")
 		)
-		(pin "24"
-			(uuid "a603140c-9cab-4220-ba01-86ea50533227")
+		(pin "8"
+			(uuid "5e02dfb6-e689-43da-8cba-8594f9026737")
+		)
+		(pin "10"
+			(uuid "0fb789a8-ab4d-411d-8286-2f6b05ec042f")
+		)
+		(pin "2"
+			(uuid "46cfb83e-dcb1-43b7-a437-3b79a1403872")
+		)
+		(pin "3"
+			(uuid "851b9528-7bba-4035-9e31-fa8a9305e596")
+		)
+		(pin "4"
+			(uuid "737280f1-f0bf-4d94-a976-c5081f37f97a")
+		)
+		(pin "7"
+			(uuid "f6019c0e-ef6f-43dd-ab05-2b27d3841e9f")
+		)
+		(pin "9"
+			(uuid "e421871a-aae5-4976-95b9-47233d235041")
 		)
 		(pin "14"
-			(uuid "7e6aaa12-a10b-419d-988f-6006ba2db643")
-		)
-		(pin "15"
-			(uuid "2e07f573-af17-4495-95d2-428256f425c2")
-		)
-		(pin "25"
-			(uuid "11e4aba4-abb2-4d20-b854-a878fa703fcb")
-		)
-		(pin "27"
-			(uuid "5fb4b579-dbe7-4d98-af40-ba992493c1ba")
-		)
-		(pin "17"
-			(uuid "bccd52fa-aa16-4348-af79-1bdc0faacb56")
-		)
-		(pin "23"
-			(uuid "715cecbd-3478-4ebe-bd79-7f71f1543dd0")
-		)
-		(pin "13"
-			(uuid "af79a2b9-045e-451d-bcec-6658f4c4084c")
-		)
-		(pin "26"
-			(uuid "505a4127-e090-46a0-b352-5a78bf7df4bf")
-		)
-		(pin "16"
-			(uuid "bb836463-5f0c-437d-bd43-aebfa20c9154")
-		)
-		(pin "28"
-			(uuid "1f3c8c8b-6900-4d48-b215-cea0c40d704c")
-		)
-		(pin "20"
-			(uuid "0403f269-2dc4-46ff-adee-6c7d107a158e")
+			(uuid "cdf0b6d5-f778-498e-8aa5-ddf1e6ff7524")
 		)
 		(pin "29"
-			(uuid "79b54ac0-18e8-4dcc-ad56-465865716623")
+			(uuid "aa3449f7-8bb3-482c-836e-3c275f6319fc")
+		)
+		(pin "18"
+			(uuid "dcdf5775-c53f-4063-b43a-0dbfa78669d4")
+		)
+		(pin "S1"
+			(uuid "83e7b93b-f91c-42b7-8ae1-1aa8ea3af2eb")
+		)
+		(pin "12"
+			(uuid "63f921fc-f3da-4fc4-9798-5d7ec358044a")
+		)
+		(pin "28"
+			(uuid "935a5de3-bb77-4939-9ea2-0f3932ad9516")
+		)
+		(pin "31"
+			(uuid "7635cee6-6dab-4bc3-892f-f1458fd96a6f")
+		)
+		(pin "17"
+			(uuid "764a3218-fa45-4fdd-930f-83ee0bb98190")
+		)
+		(pin "20"
+			(uuid "6284302d-aa8f-4bd2-8477-a4a46f6f8c38")
+		)
+		(pin "11"
+			(uuid "16965df2-230b-42f1-abda-819a265d64f7")
+		)
+		(pin "15"
+			(uuid "95257d41-41f2-4db5-b4f0-2f977715dc81")
+		)
+		(pin "21"
+			(uuid "58b452a4-a071-4a14-bb2f-015b2bf6456a")
+		)
+		(pin "23"
+			(uuid "1d48f580-02c6-43aa-9715-91eafedb0a74")
+		)
+		(pin "27"
+			(uuid "70addf1c-9bb8-479a-b7ca-f50372aa4706")
+		)
+		(pin "19"
+			(uuid "4ed848d1-8e87-4442-9b27-4ae1934317a3")
+		)
+		(pin "13"
+			(uuid "4c653fe7-274f-41c3-97df-074049a12f84")
+		)
+		(pin "22"
+			(uuid "ee985030-e83d-4b28-94a5-061cd203cee7")
+		)
+		(pin "16"
+			(uuid "17387f56-d9de-4a8b-9e92-d3a0dd032b8e")
+		)
+		(pin "25"
+			(uuid "85ea5f54-6298-4a3a-88ff-b6b2657959ed")
+		)
+		(pin "26"
+			(uuid "25a2179d-64cb-4e71-ada8-519a24034ee4")
+		)
+		(pin "24"
+			(uuid "c72a89c6-51a9-4763-8ab0-88c1778ac06b")
+		)
+		(pin "30"
+			(uuid "a018d43c-d0fd-4d80-840d-1632d8090417")
 		)
 		(pin "32"
-			(uuid "405af321-7418-43cb-b062-5be309a24c16")
+			(uuid "296b7961-58d7-4c8a-8bb4-77d5f66b803e")
+		)
+		(pin "S2"
+			(uuid "1bfcba7e-f18d-41c8-a9f1-1c7f713ef8f4")
 		)
 		(instances
 			(project ""
