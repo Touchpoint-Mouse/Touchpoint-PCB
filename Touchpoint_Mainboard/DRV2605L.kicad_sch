@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "30f31ebb-e492-40dd-8641-eb3a2d28a9e1")
+	(uuid "1298f369-91d5-4983-aceb-104802f5e375")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -895,7 +895,7 @@
 		)
 		(uuid "481f3098-8c2c-4127-8989-ee78200927d4")
 	)
-	(hierarchical_label "OUT+"
+	(hierarchical_label "OUTA+"
 		(shape input)
 		(at 72.39 45.72 0)
 		(effects
@@ -906,7 +906,7 @@
 		)
 		(uuid "8005c166-0025-4e92-ad2f-48c662f0c8c9")
 	)
-	(hierarchical_label "OUT-"
+	(hierarchical_label "OUTA-"
 		(shape input)
 		(at 72.39 48.26 0)
 		(effects

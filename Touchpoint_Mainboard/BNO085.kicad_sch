@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ed014c31-4d18-487d-a860-28794c1cd889")
+	(uuid "a4769820-2b18-4a2f-add1-c018de97ff36")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1852,6 +1852,26 @@
 			(justify left bottom)
 		)
 		(uuid "605a9e5d-c5de-480d-8412-291393142752")
+	)
+	(label "PS0"
+		(at 102.87 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc0ee408-2ea5-4a6f-b152-7572de46fb73")
+	)
+	(label "PS1"
+		(at 111.76 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e20a62b9-5419-459a-ac02-36de3541f015")
 	)
 	(hierarchical_label "~{BOOT}"
 		(shape input)
