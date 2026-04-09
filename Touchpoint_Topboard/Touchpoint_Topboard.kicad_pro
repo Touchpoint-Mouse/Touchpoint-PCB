@@ -420,18 +420,6 @@
     [
       "251ec7a4-704c-491c-8a5f-4fd74b5f8350",
       "Boost Converter"
-    ],
-    [
-      "5814971c-8ad8-4bc1-aea2-dc2f00932012",
-      "Input Connector"
-    ],
-    [
-      "2b1fbe84-02f0-4bb6-a277-e75bbcc14e46",
-      "Output Connectors"
-    ],
-    [
-      "9e97ef8b-c8cf-43c8-a150-1ca0e7ce9a3a",
-      "Communication"
     ]
   ],
   "text_variables": {}

@@ -764,7 +764,7 @@
 		)
 		(uuid "6c86d145-ca96-4e2a-aa7d-199223ea4a45")
 	)
-	(hierarchical_label "RBUTTON"
+	(hierarchical_label "~{RCLICK}"
 		(shape input)
 		(at 52.07 55.88 180)
 		(effects
