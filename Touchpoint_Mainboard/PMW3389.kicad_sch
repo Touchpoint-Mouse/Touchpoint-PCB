@@ -1772,7 +1772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.038 59.69 90)
 			(effects
 				(font
@@ -1842,7 +1842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.852 29.21 90)
 			(effects
 				(font
@@ -1912,7 +1912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.4852 33.02 0)
 			(effects
 				(font
@@ -1982,7 +1982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 41.91 0)
 			(effects
 				(font
@@ -2184,7 +2184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 33.02 0)
 			(effects
 				(font
@@ -2386,7 +2386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 53.34 0)
 			(effects
 				(font
@@ -2456,7 +2456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 107.6452 33.02 0)
 			(effects
 				(font
@@ -2658,7 +2658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 88.392 44.45 90)
 			(effects
 				(font
@@ -2794,7 +2794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 17.4752 53.34 0)
 			(effects
 				(font
@@ -2930,7 +2930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 17.4752 76.2 0)
 			(effects
 				(font
@@ -3066,7 +3066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 76.2 0)
 			(effects
 				(font
@@ -3134,7 +3134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-SCT-595-5_INF"
+		(property "Footprint" "Touchpoint:PG-SCT-595-5_INF"
 			(at 127 29.21 0)
 			(effects
 				(font
@@ -3215,7 +3215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 17.4752 33.02 0)
 			(effects
 				(font

@@ -4519,7 +4519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Touchpoint:HRS_FH34SRJ-32S-0.5SH_50_"
 			(at 116.84 57.15 0)
 			(effects
 				(font
@@ -4679,7 +4679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Touchpoint:HRS_FH34SRJ-32S-0.5SH_50_"
 			(at 149.86 55.88 0)
 			(effects
 				(font
@@ -4971,7 +4971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PQFP80_20X14MC_MCH"
+		(property "Footprint" "Touchpoint:PQFP80_20X14MC_MCH"
 			(at 26.67 24.13 0)
 			(effects
 				(font

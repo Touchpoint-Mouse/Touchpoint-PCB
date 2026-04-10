@@ -5624,12 +5624,12 @@
 		(uuid "8348fbfb-a34f-407b-9a88-1ea7610fb747")
 	)
 	(label "GPIO29"
-		(at 156.21 83.82 0)
+		(at 123.19 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8403cc0f-e3a2-465f-a835-75667efd9045")
 	)
@@ -7275,7 +7275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 161.29 160.02 0)
 			(effects
 				(font
@@ -10013,14 +10013,14 @@
 				(justify right)
 			)
 		)
-		(pin "SENSE" input
-			(at 156.21 83.82 0)
+		(pin "CHARGE" input
+			(at 123.19 81.28 180)
 			(uuid "7641dff3-65f1-45c3-a24b-3c72299b1e25")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SERVO" input
