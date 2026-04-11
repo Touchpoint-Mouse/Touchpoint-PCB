@@ -123,7 +123,7 @@
 			)
 		)
 		(property "Value" "300k"
-			(at 0 1.17 0)
+			(at -33.5707 29.1608 0)
 			(layer "F.Fab")
 			(uuid "2a1ede1b-a3a1-4d72-9fe6-b505c9b62473")
 			(effects
@@ -506,7 +506,7 @@
 	(footprint "Touchpoint:SOT-89_3MC_MCH"
 		(layer "F.Cu")
 		(uuid "08137b65-ad97-49d3-ba7b-5309f7eddb6c")
-		(at 82.9707 75.598)
+		(at 49.4 103.5888)
 		(tags "DN3135N8-G ")
 		(property "Reference" "Q1"
 			(at 0 0 0)
@@ -1508,7 +1508,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2ddb4316-393f-458c-b7f6-35752830410a")
-		(at 67.5525 74.16)
+		(at 33.9818 102.1508)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -1906,7 +1906,7 @@
 	(footprint "Touchpoint:SW_SPST_EVQP0"
 		(layer "F.Cu")
 		(uuid "454280c0-daff-459b-a990-4e55baa7b5a0")
-		(at 104.6125 66.37)
+		(at 68.4 32)
 		(descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf")
 		(property "Reference" "SW3"
 			(at 0 -3.9 0)
@@ -2205,7 +2205,7 @@
 	(footprint "Touchpoint:SOT-89_3MC_MCH"
 		(layer "F.Cu")
 		(uuid "470b780e-343a-4be6-9a0b-fdd8f98ff8fc")
-		(at 90.7 75.7888)
+		(at 57.1293 103.7796)
 		(tags "DN3135N8-G ")
 		(property "Reference" "U101"
 			(at 0 0 0)
@@ -2935,7 +2935,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 		(layer "F.Cu")
 		(uuid "5e4c79d0-a160-4945-9796-da7e9aab614a")
-		(at 69.076041 90.4)
+		(at 63.347349 109.4)
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=12mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
 		(property "Reference" "C5"
@@ -4660,7 +4660,7 @@
 	(footprint "Touchpoint:DA2032-AL"
 		(layer "F.Cu")
 		(uuid "6d357536-49a4-47e0-a0ad-43e12d7d4092")
-		(at 75.64 61.15)
+		(at 39.04 88.25)
 		(property "Reference" "U201"
 			(at 0.17721 -1.634902 0)
 			(layer "F.SilkS")
@@ -5596,7 +5596,7 @@
 	(footprint "Touchpoint:CONN03_EC10E_9P8X6P1_ALPS"
 		(layer "F.Cu")
 		(uuid "83cb078a-34eb-4b22-a22e-8d62462e86b7")
-		(at 103.8867 57.375)
+		(at 51.183651 28.506911)
 		(tags "EC10E1220501 ")
 		(property "Reference" "J4"
 			(at 2.5 0 0)
@@ -5897,7 +5897,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "88b5022b-2d26-4b0b-98c4-2915b252c161")
-		(at 67.5525 77.17)
+		(at 33.9818 105.1608)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -6096,7 +6096,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "88cb2f4b-4353-475c-acd0-39f5823e57d8")
-		(at 106.4725 72.44)
+		(at 73.4 83.46)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
@@ -6360,7 +6360,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8cec3dbc-faf1-4864-9ea9-fc4a5ef0f34f")
-		(at 101.8825 72.44)
+		(at 50.6 68.46)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J1"
@@ -6624,7 +6624,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8fdc9ad4-7649-4673-a49f-766c5eb507f8")
-		(at 80.1325 82.1)
+		(at 46.5618 110.0908)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -6823,7 +6823,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a4ca51ca-ca44-4836-bd4e-f897a5af5349")
-		(at 80.1325 80.13)
+		(at 46.5618 108.1208)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -7022,7 +7022,7 @@
 	(footprint "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
 		(layer "F.Cu")
 		(uuid "ab045e90-c7b4-415e-b810-64b31fdccf47")
-		(at 73.4906 80.6346)
+		(at 39.9199 108.6254)
 		(descr "MSOP, 10 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3805fg.pdf#page=18), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "MSOP SO")
 		(property "Reference" "U1"
@@ -7862,7 +7862,7 @@
 	(footprint "Touchpoint:SMB_DIO"
 		(layer "F.Cu")
 		(uuid "c19fb6af-64c3-4764-bcf3-76ba969d1d31")
-		(at 74.926701 75.4552)
+		(at 41.356001 103.446)
 		(tags "MURS160-13-F ")
 		(property "Reference" "D1"
 			(at 0 0 0)
@@ -8481,7 +8481,7 @@
 			)
 			(polygon
 				(pts
-					(xy 72.182501 73.536) (xy 77.670901 73.536) (xy 77.670901 74.2994) (xy 72.182501 74.2994)
+					(xy 38.611801 101.5268) (xy 44.100201 101.5268) (xy 44.100201 102.2902) (xy 38.611801 102.2902)
 				)
 			)
 		)
@@ -8513,7 +8513,7 @@
 			)
 			(polygon
 				(pts
-					(xy 72.182501 76.611) (xy 77.670901 76.611) (xy 77.670901 77.3744) (xy 72.182501 77.3744)
+					(xy 38.611801 104.6018) (xy 44.100201 104.6018) (xy 44.100201 105.3652) (xy 38.611801 105.3652)
 				)
 			)
 		)
@@ -8545,7 +8545,7 @@
 			)
 			(polygon
 				(pts
-					(xy 74.210501 74.2994) (xy 75.642901 74.2994) (xy 75.642901 76.611) (xy 74.210501 76.611)
+					(xy 40.639801 102.2902) (xy 42.072201 102.2902) (xy 42.072201 104.6018) (xy 40.639801 104.6018)
 				)
 			)
 		)
@@ -9533,6 +9533,188 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(gr_arc
+		(start 75.5 113.4)
+		(mid 74.62132 115.52132)
+		(end 72.5 116.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2322282d-8d6a-4d79-8c77-49aa6208c43a")
+	)
+	(gr_circle
+		(center 72.5 113.4)
+		(end 73.75 113.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "24f87e23-3ff9-4e04-a972-c269bbe709e2")
+	)
+	(gr_line
+		(start 27.5 116.4)
+		(end 72.5 116.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "27bec6e0-dafe-41ac-9ab4-85c4c5ff396d")
+	)
+	(gr_line
+		(start 75.499999 26.6)
+		(end 75.5 26.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2b12096e-a2bd-4cf2-8ef4-6ff4577989da")
+	)
+	(gr_circle
+		(center 59.20062 82.397398)
+		(end 60.45062 82.397398)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2dae6bfc-1a94-4488-b5da-6802de248a44")
+	)
+	(gr_line
+		(start 24.5 75.98863)
+		(end 24.5 113.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "31a26b90-32b9-4fcf-82ec-fa3d0d29ee33")
+	)
+	(gr_circle
+		(center 72.5 26.6)
+		(end 73.75 26.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "3f9916ba-e04e-48a4-b817-dce3fe48c787")
+	)
+	(gr_arc
+		(start 27.5 116.4)
+		(mid 25.37868 115.52132)
+		(end 24.5 113.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "442b3b1b-c8d5-45bd-b305-ba19b1cead49")
+	)
+	(gr_arc
+		(start 45.774 20)
+		(mid 59.658169 20.930897)
+		(end 73.293799 23.706925)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "527c5cb0-6c1d-438b-8e0c-61abb3739ad1")
+	)
+	(gr_arc
+		(start 73.293799 23.706925)
+		(mid 74.885518 24.780851)
+		(end 75.499999 26.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7ae17eab-414c-4c64-8689-1388cb927a72")
+	)
+	(gr_line
+		(start 75.5 113.4)
+		(end 75.5 26.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7e089082-d776-46e6-975f-da04b3b58d7d")
+	)
+	(gr_line
+		(start 45.774 20)
+		(end 45.774 68.393398)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "812a8e4f-dd63-47ab-8802-28c9f19f070c")
+	)
+	(gr_line
+		(start 35.4635 68.393398)
+		(end 45.774 68.393398)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2937acc-ba5f-4dd4-957f-aa8acecdede2")
+	)
+	(gr_circle
+		(center 59.20062 39.643398)
+		(end 60.45062 39.643398)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d8ca7931-3ce0-480a-bf00-a664ec0a2af7")
+	)
+	(gr_circle
+		(center 27.5 113.4)
+		(end 28.75 113.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "e7c2a0f0-82da-45d5-8b19-5f7c0de0f928")
+	)
+	(gr_arc
+		(start 35.4635 68.393398)
+		(mid 31.264162 74.042139)
+		(end 24.5 75.98863)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f92cfcab-3d6a-4df0-8618-4b0e10e9de2c")
+	)
+	(group ""
+		(uuid "8cac0c0d-ace6-4977-a5e9-2a6ea1a8dbfc")
+		(members "2322282d-8d6a-4d79-8c77-49aa6208c43a" "24f87e23-3ff9-4e04-a972-c269bbe709e2"
+			"27bec6e0-dafe-41ac-9ab4-85c4c5ff396d" "2b12096e-a2bd-4cf2-8ef4-6ff4577989da"
+			"2dae6bfc-1a94-4488-b5da-6802de248a44" "31a26b90-32b9-4fcf-82ec-fa3d0d29ee33"
+			"3f9916ba-e04e-48a4-b817-dce3fe48c787" "442b3b1b-c8d5-45bd-b305-ba19b1cead49"
+			"527c5cb0-6c1d-438b-8e0c-61abb3739ad1" "7ae17eab-414c-4c64-8689-1388cb927a72"
+			"7e089082-d776-46e6-975f-da04b3b58d7d" "812a8e4f-dd63-47ab-8802-28c9f19f070c"
+			"c2937acc-ba5f-4dd4-957f-aa8acecdede2" "d8ca7931-3ce0-480a-bf00-a664ec0a2af7"
+			"e7c2a0f0-82da-45d5-8b19-5f7c0de0f928" "f92cfcab-3d6a-4df0-8618-4b0e10e9de2c"
 		)
 	)
 	(embedded_fonts no)

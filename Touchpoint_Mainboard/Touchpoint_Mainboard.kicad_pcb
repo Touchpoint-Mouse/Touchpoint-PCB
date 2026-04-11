@@ -2619,7 +2619,7 @@
 	(footprint "Touchpoint:HRS_FH34SRJ-32S-0.5SH_50_"
 		(layer "F.Cu")
 		(uuid "1f0b581a-8a46-4587-8617-240cdb516fea")
-		(at 49.63 59.205)
+		(at 33.55 51.65)
 		(property "Reference" "J4"
 			(at -6.968 -2.7564 0)
 			(layer "F.SilkS")
@@ -8493,7 +8493,7 @@
 	(footprint "Touchpoint:HRS_FH34SRJ-32S-0.5SH_50_"
 		(layer "F.Cu")
 		(uuid "5eb609b7-456f-41b7-92a4-e1d62b5079be")
-		(at 49.63 65.03)
+		(at 44.65 57.25)
 		(property "Reference" "J5"
 			(at -6.968 -2.7564 0)
 			(layer "F.SilkS")
@@ -10405,7 +10405,7 @@
 	(footprint "Package_QFP:PQFP-80_14x20mm_P0.8mm"
 		(layer "F.Cu")
 		(uuid "6a13c412-e6ee-403d-af51-3f89843954bb")
-		(at 50.2991 42.5163)
+		(at 51.4 20.2)
 		(descr "PQFP, 80 Pin (JEITA/EIAJ ED-7311A (variation 80-001-PB) / JEDEC MS-022 (variation GB-2), 2.70mm body thickness, https://www.jeita.or.jp/japanese/standard/book/ED-7311A/#target/page_no=91, https://www.jedec.org/document_search?search_api_views_fulltext=MS-022), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "PQFP QFP P-QFP080-14.00x20.00-0.80 P-QFP080-1420-0.80 MQFP-80 Onsemi_PQFP80-14x20-/-QIP80E Onsemi_CASE-122BS")
 		(property "Reference" "U9"
@@ -25069,7 +25069,7 @@
 	(footprint "Touchpoint:XDCR_PEC12R-4220F-S0024"
 		(layer "F.Cu")
 		(uuid "f4af22bb-3a34-4238-94bf-6d91f6eab931")
-		(at 93.21 87.105)
+		(at 26.5 65.2)
 		(property "Reference" "S1"
 			(at -3.075 -9.385 0)
 			(layer "F.SilkS")
@@ -25948,16 +25948,230 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 28 22.6)
-		(end 120.8 109.2)
+	(gr_arc
+		(start 75.5 113.4)
+		(mid 74.62132 115.52132)
+		(end 72.5 116.4)
 		(stroke
-			(width 0.05)
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1ad37e4e-b6b9-4e6c-85cd-ed556f3a292c")
+	)
+	(gr_arc
+		(start 73.293799 23.706925)
+		(mid 74.885518 24.780851)
+		(end 75.499999 26.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f15dedb-0437-4dfb-ae23-e06151dff8a7")
+	)
+	(gr_arc
+		(start 45.774 20)
+		(mid 59.658169 20.930897)
+		(end 73.293799 23.706925)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "384e42fa-73e4-41a3-84f7-e9f9c41559e0")
+	)
+	(gr_arc
+		(start 17.5 59)
+		(mid 18.37868 56.87868)
+		(end 20.5 56)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "47475eac-2ab4-45c5-95f0-45e9eafb9d45")
+	)
+	(gr_line
+		(start 75.5 113.4)
+		(end 75.5 26.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "564b8633-460f-4799-a05d-fa6b9ba46c10")
+	)
+	(gr_arc
+		(start 20.5 74)
+		(mid 18.37868 73.12132)
+		(end 17.5 71)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "59d84e67-391c-475e-a263-9467b0be49d6")
+	)
+	(gr_circle
+		(center 27.5 113.4)
+		(end 28.75 113.4)
+		(stroke
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "aa083caf-6ce0-4d1e-815e-034639f90bf3")
+		(uuid "5eb19d0c-8374-4a37-a640-12a2215da28b")
+	)
+	(gr_circle
+		(center 72.5 113.4)
+		(end 73.75 113.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "749fe87c-5c5e-421b-8f5d-6bd183711101")
+	)
+	(gr_line
+		(start 24.5 77)
+		(end 24.5 113.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7869b034-dd6f-4ae0-8c83-cb25c2b790da")
+	)
+	(gr_arc
+		(start 22.5 54)
+		(mid 21.914214 55.414214)
+		(end 20.5 56)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7aa5406c-3b5b-48c6-bd30-5929644f4599")
+	)
+	(gr_circle
+		(center 72.5 26.6)
+		(end 73.75 26.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "7af53521-808f-4e3f-b5eb-59ee0ddbbfe0")
+	)
+	(gr_line
+		(start 27.5 116.4)
+		(end 72.5 116.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7d954ace-691f-42e0-a6fb-9b1f51016df9")
+	)
+	(gr_line
+		(start 45.774 20)
+		(end 45.774 48.393398)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8805d26e-9c2e-4421-aad2-d2b63194ac1a")
+	)
+	(gr_arc
+		(start 21.5 74)
+		(mid 23.62132 74.87868)
+		(end 24.5 77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a445dff-6ab7-4ad5-b9b4-08da110718ff")
+	)
+	(gr_line
+		(start 20.5 74)
+		(end 21.5 74)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9420a9da-29d4-42b2-920b-35abd85438c4")
+	)
+	(gr_line
+		(start 17.5 59)
+		(end 17.5 71)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc84ea02-31a3-47b7-b687-2b36f0824224")
+	)
+	(gr_line
+		(start 45.774 48.393398)
+		(end 22.5 48.393398)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c3546a9e-decd-4ad4-8e89-77d62777b754")
+	)
+	(gr_arc
+		(start 27.5 116.4)
+		(mid 25.37868 115.52132)
+		(end 24.5 113.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dafaadef-9b83-4f39-a3b5-75b4cc390f7e")
+	)
+	(gr_line
+		(start 75.499999 26.6)
+		(end 75.5 26.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fd64aab9-eb43-48ae-b4d6-ee88409c8e24")
+	)
+	(gr_line
+		(start 22.5 48.393398)
+		(end 22.5 54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fda1417a-2a9a-4c05-b2f4-14c45e58f9d0")
+	)
+	(group ""
+		(uuid "07108bfa-d874-493e-9f38-b7f56b9d390d")
+		(members "1ad37e4e-b6b9-4e6c-85cd-ed556f3a292c" "1f15dedb-0437-4dfb-ae23-e06151dff8a7"
+			"384e42fa-73e4-41a3-84f7-e9f9c41559e0" "47475eac-2ab4-45c5-95f0-45e9eafb9d45"
+			"564b8633-460f-4799-a05d-fa6b9ba46c10" "59d84e67-391c-475e-a263-9467b0be49d6"
+			"5eb19d0c-8374-4a37-a640-12a2215da28b" "749fe87c-5c5e-421b-8f5d-6bd183711101"
+			"7869b034-dd6f-4ae0-8c83-cb25c2b790da" "7aa5406c-3b5b-48c6-bd30-5929644f4599"
+			"7af53521-808f-4e3f-b5eb-59ee0ddbbfe0" "7d954ace-691f-42e0-a6fb-9b1f51016df9"
+			"8805d26e-9c2e-4421-aad2-d2b63194ac1a" "8a445dff-6ab7-4ad5-b9b4-08da110718ff"
+			"9420a9da-29d4-42b2-920b-35abd85438c4" "bc84ea02-31a3-47b7-b687-2b36f0824224"
+			"c3546a9e-decd-4ad4-8e89-77d62777b754" "dafaadef-9b83-4f39-a3b5-75b4cc390f7e"
+			"fd64aab9-eb43-48ae-b4d6-ee88409c8e24" "fda1417a-2a9a-4c05-b2f4-14c45e58f9d0"
+		)
 	)
 	(embedded_fonts no)
 )
