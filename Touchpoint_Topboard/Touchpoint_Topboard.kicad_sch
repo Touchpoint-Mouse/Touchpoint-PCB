@@ -3058,7 +3058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Touchpoint:Jumper_Interface_10"
 			(at 45.72 38.1 0)
 			(effects
 				(font
