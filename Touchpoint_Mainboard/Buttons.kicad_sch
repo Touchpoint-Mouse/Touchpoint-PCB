@@ -879,7 +879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21bf9a3f-4f9c-45a8-8241-d51babe96aee")
-		(property "Reference" "C18"
+		(property "Reference" "C802"
 			(at 66.04 33.0262 0)
 			(effects
 				(font
@@ -933,7 +933,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "C18")
+					(reference "C802")
 					(unit 1)
 				)
 			)
@@ -950,7 +950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38477585-2f75-4e12-ace2-7dc844a7eaa2")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0805"
 			(at 96.52 43.18 0)
 			(effects
 				(font
@@ -1000,7 +1000,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "#PWR067")
+					(reference "#PWR0805")
 					(unit 1)
 				)
 			)
@@ -1016,7 +1016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b82ba42-78d8-40c8-badb-5b13a21ae1f2")
-		(property "Reference" "SW3"
+		(property "Reference" "SW803"
 			(at 88.9 25.4 0)
 			(effects
 				(font
@@ -1032,7 +1032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchpoint:SW_SPST_EVQP0"
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 88.9 31.75 0)
 			(effects
 				(font
@@ -1068,7 +1068,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "SW3")
+					(reference "SW803")
 					(unit 1)
 				)
 			)
@@ -1084,7 +1084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "539cafa7-5eba-4446-8bb5-39af67b3b9a0")
-		(property "Reference" "R7"
+		(property "Reference" "R801"
 			(at 38.1 27.305 0)
 			(effects
 				(font
@@ -1137,7 +1137,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "R7")
+					(reference "R801")
 					(unit 1)
 				)
 			)
@@ -1153,7 +1153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6113638e-9f1b-4a01-b3e6-cea9387e4929")
-		(property "Reference" "C35"
+		(property "Reference" "C803"
 			(at 99.06 33.0262 0)
 			(effects
 				(font
@@ -1207,7 +1207,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "C35")
+					(reference "C803")
 					(unit 1)
 				)
 			)
@@ -1223,7 +1223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70a446de-9edb-4e6c-96b0-5708ea998bb5")
-		(property "Reference" "C10"
+		(property "Reference" "C801"
 			(at 33.02 33.0262 0)
 			(effects
 				(font
@@ -1277,7 +1277,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "C10")
+					(reference "C801")
 					(unit 1)
 				)
 			)
@@ -1293,7 +1293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ddaf9f-ae7f-4a94-921f-2cd89dcc9163")
-		(property "Reference" "R8"
+		(property "Reference" "R802"
 			(at 71.12 27.305 0)
 			(effects
 				(font
@@ -1346,7 +1346,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "R8")
+					(reference "R802")
 					(unit 1)
 				)
 			)
@@ -1362,7 +1362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4d830e6-517f-4eb5-bafd-f9024cf83f77")
-		(property "Reference" "SW1"
+		(property "Reference" "SW802"
 			(at 55.88 25.4 0)
 			(effects
 				(font
@@ -1414,7 +1414,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "SW1")
+					(reference "SW802")
 					(unit 1)
 				)
 			)
@@ -1430,7 +1430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e2dd88-5cb1-4c42-a6be-85c87c05743e")
-		(property "Reference" "R24"
+		(property "Reference" "R803"
 			(at 104.14 27.305 0)
 			(effects
 				(font
@@ -1483,7 +1483,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "R24")
+					(reference "R803")
 					(unit 1)
 				)
 			)
@@ -1500,7 +1500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb790831-dc51-4f39-aec6-cd2f850c6090")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0802"
 			(at 35.56 27.94 0)
 			(effects
 				(font
@@ -1550,7 +1550,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "#PWR019")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -1567,7 +1567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d296b571-b49f-4ac3-a4db-a66385b92a34")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0801"
 			(at 30.48 43.18 0)
 			(effects
 				(font
@@ -1617,7 +1617,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "#PWR018")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -1634,7 +1634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d67d096a-9186-4578-9ff6-445eedb0fbb6")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0806"
 			(at 101.6 27.94 0)
 			(effects
 				(font
@@ -1684,7 +1684,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "#PWR068")
+					(reference "#PWR0806")
 					(unit 1)
 				)
 			)
@@ -1701,7 +1701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb63b8a9-c1d5-4d20-af6c-e88306d2d95f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0803"
 			(at 63.5 43.18 0)
 			(effects
 				(font
@@ -1751,7 +1751,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "#PWR012")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -1768,7 +1768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef9ea1b1-790d-46f1-b553-af061a976457")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0804"
 			(at 68.58 27.94 0)
 			(effects
 				(font
@@ -1818,7 +1818,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "#PWR025")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -1834,7 +1834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "facadc4a-2db5-4a57-b27b-e810873376a8")
-		(property "Reference" "SW2"
+		(property "Reference" "SW801"
 			(at 22.86 25.4 0)
 			(effects
 				(font
@@ -1886,7 +1886,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
-					(reference "SW2")
+					(reference "SW801")
 					(unit 1)
 				)
 			)

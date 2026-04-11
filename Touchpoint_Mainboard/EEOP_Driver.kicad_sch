@@ -4300,7 +4300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b22753c-095b-4378-a445-005ddd8a2100")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0705"
 			(at 20.32 105.41 0)
 			(effects
 				(font
@@ -4351,7 +4351,7 @@
 		(instances
 			(project ""
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
-					(reference "#PWR066")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -4367,7 +4367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e7ad9f1-19ab-4716-af84-25ec75530ff3")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0702"
 			(at 20.32 97.79 0)
 			(effects
 				(font
@@ -4418,7 +4418,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
-					(reference "#PWR078")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -4434,7 +4434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65bf289e-21cd-453f-90ad-2a986f3fdba9")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0704"
 			(at 30.48 102.87 0)
 			(effects
 				(font
@@ -4485,7 +4485,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
-					(reference "#PWR077")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -4501,7 +4501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7db5e9e8-8324-48a2-873f-133773cbf9bb")
-		(property "Reference" "J4"
+		(property "Reference" "J701"
 			(at 119.38 57.1499 0)
 			(effects
 				(font
@@ -4645,7 +4645,7 @@
 		(instances
 			(project ""
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
-					(reference "J4")
+					(reference "J701")
 					(unit 1)
 				)
 			)
@@ -4661,7 +4661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "813809e5-f925-47e0-b65d-f664fd26c6f5")
-		(property "Reference" "J5"
+		(property "Reference" "J702"
 			(at 152.4 55.8799 0)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
-					(reference "J5")
+					(reference "J702")
 					(unit 1)
 				)
 			)
@@ -4821,7 +4821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a09d63ee-2aa2-4880-bd40-70bc6d769fa0")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0706"
 			(at 30.48 123.19 0)
 			(effects
 				(font
@@ -4872,7 +4872,7 @@
 		(instances
 			(project ""
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
-					(reference "#PWR079")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -4888,7 +4888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b93c3c28-c223-4207-b799-da23a5042f28")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0703"
 			(at 30.48 100.33 0)
 			(effects
 				(font
@@ -4939,7 +4939,7 @@
 		(instances
 			(project ""
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
-					(reference "#PWR076")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -4955,7 +4955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea1ab63-a988-48d0-9eca-1e43cd5c8796")
-		(property "Reference" "U9"
+		(property "Reference" "U701"
 			(at 52.07 13.97 0)
 			(effects
 				(font
@@ -5243,7 +5243,7 @@
 		(instances
 			(project ""
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
-					(reference "U9")
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -5259,7 +5259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e41f5332-750e-4587-99b5-4bfc5dd1b7a8")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0701"
 			(at 30.48 85.09 0)
 			(effects
 				(font
@@ -5310,7 +5310,7 @@
 		(instances
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
-					(reference "#PWR080")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)

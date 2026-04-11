@@ -1,4 +1,4 @@
-(footprint "Jumper_Interface_10"
+(footprint "Jumper_Interface_11"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Jumper_Interface_10"
+	(property "Value" "Jumper_Interface_11"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -145,6 +145,14 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1f3c9305-38e5-4185-8aa0-b4363f408d2e")
+	)
+	(pad "11" thru_hole circle
+		(at 25 0)
+		(size 1.6 1.6)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ea05d2f-99cc-4f55-a123-a6c339eb6d58")
 	)
 	(embedded_fonts no)
 )
