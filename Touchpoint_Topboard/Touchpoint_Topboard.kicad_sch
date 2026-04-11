@@ -3033,7 +3033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Touchpoint:SW_SPST_EVQP0"
 			(at 86.36 36.83 0)
 			(effects
 				(font

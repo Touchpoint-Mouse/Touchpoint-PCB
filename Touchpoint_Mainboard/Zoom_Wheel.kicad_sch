@@ -1941,7 +1941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PEC12R-4220F-S0024:XDCR_PEC12R-4220F-S0024"
+		(property "Footprint" "Touchpoint:XDCR_PEC12R-4220F-S0024"
 			(at 68.58 38.1 0)
 			(effects
 				(font

@@ -7,4 +7,5 @@
   (lib (name "PEC12R-4220F-S0024")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Touchpoint-Mouse/Touchpoint-PCB/symbols/PEC12R-4220F-S0024.kicad_sym")(options "")(descr ""))
   (lib (name "PMW3360DM")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Touchpoint-Mouse/Touchpoint-PCB/symbols/PMW3360DM.kicad_sym")(options "")(descr ""))
   (lib (name "TLS105B0MBHTSA1")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Touchpoint-Mouse/Touchpoint-PCB/symbols/TLS105B0MBHTSA1.kicad_sym")(options "")(descr ""))
+  (lib (name "DA2032-AL")(type "KiCad")(uri "C:/Users/carso/Documents/GitHub/Touchpoint-Mouse/Touchpoint-PCB/symbols/DA2032-AL.kicad_sym")(options "")(descr ""))
 )

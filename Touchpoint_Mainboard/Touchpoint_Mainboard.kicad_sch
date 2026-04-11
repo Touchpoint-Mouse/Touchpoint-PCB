@@ -7057,7 +7057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 38.481 45.593 0)
 			(effects
 				(font
@@ -7527,7 +7527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 93.091 45.593 0)
 			(effects
 				(font
@@ -7865,7 +7865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 229.87 121.92 0)
 			(effects
 				(font
@@ -8224,7 +8224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2040_minimal:RP2040-QFN-56"
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
 			(at 45.72 107.95 0)
 			(effects
 				(font
@@ -8584,7 +8584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 38.481 30.353 0)
 			(effects
 				(font
@@ -9075,7 +9075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 27.051 30.353 0)
 			(effects
 				(font

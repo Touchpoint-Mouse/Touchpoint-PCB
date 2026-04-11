@@ -3547,7 +3547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "=Custom:PMW3360DM"
+		(property "Footprint" "Touchpoint:PMW3360DM"
 			(at 59.69 60.96 0)
 			(effects
 				(font

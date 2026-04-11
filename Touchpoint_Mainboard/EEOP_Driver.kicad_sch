@@ -4971,7 +4971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchpoint:PQFP80_20X14MC_MCH"
+		(property "Footprint" "Package_QFP:PQFP-80_14x20mm_P0.8mm"
 			(at 26.67 24.13 0)
 			(effects
 				(font

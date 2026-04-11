@@ -1032,7 +1032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Touchpoint:SW_SPST_EVQP0"
 			(at 88.9 31.75 0)
 			(effects
 				(font
