@@ -4443,7 +4443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VBUS"
 			(at 22.86 102.8699 90)
 			(effects
 				(font
@@ -4897,7 +4897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VBUS"
 			(at 22.86 100.3299 90)
 			(effects
 				(font
