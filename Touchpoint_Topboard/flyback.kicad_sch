@@ -3700,7 +3700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 73.66 0)
+		(at 223.52 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3709,7 +3709,7 @@
 		(fields_autoplaced yes)
 		(uuid "747103d0-331c-4d5e-9e59-5ee3fb9ac695")
 		(property "Reference" "#PWR016"
-			(at 223.52 80.01 0)
+			(at 223.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 78.74 0)
+			(at 223.52 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 73.66 0)
+			(at 223.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 73.66 0)
+			(at 223.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +3744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 73.66 0)
+			(at 223.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touchpoint:MSOP10_05-08-1664_ADI"
+		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
 			(at 106.68 91.44 0)
 			(effects
 				(font
@@ -4665,76 +4665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 223.52 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d79cbadd-2938-4ffb-a6c3-9865bb0d37b5")
-		(property "Reference" "C6"
-			(at 227.33 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 227.33 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 224.4852 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 223.52 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa98e228-db02-4dce-9e69-15383789b5c1")
-		)
-		(pin "1"
-			(uuid "69cbbb0a-e768-49c5-ba55-70f0cfb980fe")
-		)
-		(instances
-			(project "Touchpoint_Topboard"
-				(path "/7efcba5d-f3d7-4197-a753-e42cd4117b88/41bd7ce1-1ba2-4b86-912b-61f5e6f9ab0c"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 237.49 73.66 0)
 		(unit 1)
@@ -4886,7 +4816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "4.7u"
 			(at 227.33 63.4999 0)
 			(effects
 				(font
@@ -4895,7 +4825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 224.4852 66.04 0)
 			(effects
 				(font
