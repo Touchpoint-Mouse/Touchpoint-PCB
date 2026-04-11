@@ -617,10 +617,6 @@
     [
       "41bd7ce1-1ba2-4b86-912b-61f5e6f9ab0c",
       "Flyback"
-    ],
-    [
-      "251ec7a4-704c-491c-8a5f-4fd74b5f8350",
-      "Boost Converter"
     ]
   ],
   "text_variables": {}
