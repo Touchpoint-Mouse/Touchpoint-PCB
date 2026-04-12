@@ -895,7 +895,7 @@
 		)
 		(uuid "481f3098-8c2c-4127-8989-ee78200927d4")
 	)
-	(hierarchical_label "OUTA+"
+	(hierarchical_label "OUT+"
 		(shape input)
 		(at 72.39 45.72 0)
 		(effects
@@ -906,7 +906,7 @@
 		)
 		(uuid "8005c166-0025-4e92-ad2f-48c662f0c8c9")
 	)
-	(hierarchical_label "OUTA-"
+	(hierarchical_label "OUT-"
 		(shape input)
 		(at 72.39 48.26 0)
 		(effects

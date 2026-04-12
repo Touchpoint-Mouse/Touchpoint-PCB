@@ -5673,7 +5673,7 @@
 		)
 		(uuid "8da698c1-8d09-4106-8b06-8b7cd041c1e4")
 	)
-	(label "XOUTA"
+	(label "XOUT"
 		(at 234.95 66.04 180)
 		(effects
 			(font
@@ -5693,7 +5693,7 @@
 		)
 		(uuid "92c6c2c2-accb-420f-9dae-4bbe7362a782")
 	)
-	(label "XOUTA"
+	(label "XOUT"
 		(at 19.05 115.57 0)
 		(effects
 			(font
@@ -10339,7 +10339,7 @@
 				(justify right)
 			)
 		)
-		(pin "OUTA+" input
+		(pin "OUT+" input
 			(at 151.13 160.02 0)
 			(uuid "3e6ca971-0e42-49a1-a9ac-750a548bca55")
 			(effects
@@ -10349,7 +10349,7 @@
 				(justify right)
 			)
 		)
-		(pin "OUTA-" input
+		(pin "OUT-" input
 			(at 151.13 162.56 0)
 			(uuid "0bcc0c30-56a5-4305-b600-c9db1b49d95e")
 			(effects
