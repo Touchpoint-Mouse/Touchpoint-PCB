@@ -1017,6 +1017,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HV507PG:HV507PG-G"
 			(pin_names
 				(offset 0.254)
@@ -2945,6 +3085,32 @@
 		(color 0 0 0 0)
 		(uuid "7c66a069-426d-4156-a73f-2970c60bb8e5")
 	)
+	(junction
+		(at 13.97 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d35623b-04cc-4c94-8e90-aa29122fa7fe")
+	)
+	(wire
+		(pts
+			(xy 13.97 100.33) (xy 26.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd77ee9-862f-4b57-bbbe-cb01e023ce56")
+	)
+	(wire
+		(pts
+			(xy 12.7 100.33) (xy 13.97 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac28f05d-7100-4aa2-8f1b-b29642a33c97")
+	)
 	(wire
 		(pts
 			(xy 26.67 105.41) (xy 26.67 107.95)
@@ -4812,6 +4978,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 13.97 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b5d00de-8b16-4de7-a692-0d3c53673fac")
+		(property "Reference" "C701"
+			(at 16.51 101.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 16.51 104.1462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 13.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 13.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c05db59-dfc8-4a88-9b61-82ce7febea55")
+		)
+		(pin "1"
+			(uuid "9bbb316c-68e6-4821-abaa-c85827288d0b")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
+					(reference "C701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 13.97 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bed802c-66f8-4212-9cf4-fe5f81998ba8")
+		(property "Reference" "#PWR0707"
+			(at 13.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 13.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 13.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67e10ed7-4826-4cef-80b6-16a901a172d7")
+		)
+		(instances
+			(project ""
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/d77d4631-394e-42d9-bdcc-1bd3eb66f861"
+					(reference "#PWR0707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VPP")
 		(at 26.67 123.19 90)
 		(unit 1)
@@ -4880,7 +5182,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 26.67 100.33 90)
+		(at 12.7 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4889,7 +5191,7 @@
 		(fields_autoplaced yes)
 		(uuid "b93c3c28-c223-4207-b799-da23a5042f28")
 		(property "Reference" "#PWR0703"
-			(at 30.48 100.33 0)
+			(at 16.51 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +5200,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 22.86 100.3299 90)
+			(at 8.89 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +5209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 100.33 0)
+			(at 12.7 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +5218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 100.33 0)
+			(at 12.7 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +5227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 26.67 100.33 0)
+			(at 12.7 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
