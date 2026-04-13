@@ -3056,7 +3056,7 @@
 		(uuid "63279070-36af-4e62-9418-149a39b6b2d2")
 	)
 	(label "SCROLLA"
-		(at 90.17 55.88 180)
+		(at 90.17 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3106,7 +3106,7 @@
 		(uuid "9bf26438-522e-4d53-982d-66ce5bb31070")
 	)
 	(label "SCROLLB"
-		(at 90.17 60.96 180)
+		(at 90.17 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3147,7 +3147,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 58.42 270)
+		(at 90.17 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3156,7 +3156,7 @@
 		(fields_autoplaced yes)
 		(uuid "231ac805-536c-48f0-9bb7-a3372afe6579")
 		(property "Reference" "#PWR011"
-			(at 83.82 58.42 0)
+			(at 83.82 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3165,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 58.4199 90)
+			(at 86.36 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 58.42 0)
+			(at 90.17 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 58.42 0)
+			(at 90.17 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +3192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 58.42 0)
+			(at 90.17 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

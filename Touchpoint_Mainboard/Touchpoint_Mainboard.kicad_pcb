@@ -5745,7 +5745,7 @@
 			(net 3 "+3.3V")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "96614aad-7f6c-417b-94ee-d29656f17fc6")
+			(uuid "446fda1c-7ebe-4f12-9ccd-72feccd164c7")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3 180)
@@ -45306,7 +45306,7 @@
 			(net 2 "GND")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "b41679d6-1e05-434d-aa3c-b5a03907bd9e")
+			(uuid "d994b679-7652-4a12-a496-40742b8255a7")
 		)
 		(pad "2" thru_hole circle
 			(at 0 -4.5)
@@ -45328,7 +45328,7 @@
 			(net 10 "/~{BOOT}")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "5b42ed1e-b527-4131-a3b4-f4e8fe94dd93")
+			(uuid "30b99f35-f7d8-4c52-a6bf-4c8a8fc101f4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.step"
@@ -46630,7 +46630,7 @@
 			(net 2 "GND")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "ecb5d81d-f034-4480-b7f6-74f93890f56a")
+			(uuid "70c747c1-fe2c-4253-b205-f66e67c421d1")
 		)
 		(pad "2" thru_hole circle
 			(at 0 -4.5 180)
@@ -46652,7 +46652,7 @@
 			(net 12 "/~{RESET}")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "60c4e553-cdfe-4eeb-8294-baa18c554260")
+			(uuid "475e6f54-2313-441d-91ec-51731e1ecc66")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.step"

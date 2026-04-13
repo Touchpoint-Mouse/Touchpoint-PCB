@@ -580,7 +580,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Touchpoint_Mainboard.step",
       "svg": "",
       "vrml": ""
     },
