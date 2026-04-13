@@ -262,16 +262,20 @@
 		(remove_unused_layers no)
 		(uuid "b8c806ed-c634-4339-ab88-902e2db9b9b4")
 	)
-	(pad "4" smd rect
+	(pad "4" thru_hole oval
 		(at -1.999999 2.000001)
-		(size 1.8034 2.0066)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(size 2.3 2.7)
+		(drill oval 1.8 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "9914cc39-5c20-4a4a-b2cc-dcc7b5b920ad")
 	)
-	(pad "5" smd rect
+	(pad "5" thru_hole oval
 		(at 6.999999 2.000001)
-		(size 1.8034 2.0066)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(size 2.3 2.7)
+		(drill oval 1.8 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "99043d3d-1ece-4900-81c1-945f87d4e29f")
 	)
 	(embedded_fonts no)
