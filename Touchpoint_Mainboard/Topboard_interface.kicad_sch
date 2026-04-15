@@ -5,7 +5,7 @@
 	(uuid "e6a6f2a7-285f-467f-9f72-e9c5f9dded61")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x11"
+		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,14 +14,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 15.24 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x11"
+			(property "Value" "Conn_01x10"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,9 +74,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x11_1_1"
+			(symbol "Conn_01x10_1_1"
 				(rectangle
-					(start -1.27 13.97)
+					(start -1.27 11.43)
 					(end 1.27 -13.97)
 					(stroke
 						(width 0.254)
@@ -84,17 +84,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 12.827)
-					(end 0 12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -208,7 +197,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -226,7 +215,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -244,7 +233,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -262,7 +251,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -280,7 +269,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -298,7 +287,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -316,7 +305,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -334,7 +323,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -352,7 +341,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -370,7 +359,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -380,149 +369,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -887,7 +733,7 @@
 	)
 	(hierarchical_label "SCROLLA"
 		(shape input)
-		(at 52.07 60.96 180)
+		(at 52.07 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -898,7 +744,7 @@
 	)
 	(hierarchical_label "VREF"
 		(shape input)
-		(at 52.07 48.26 180)
+		(at 52.07 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -909,7 +755,7 @@
 	)
 	(hierarchical_label "SERVO"
 		(shape input)
-		(at 52.07 53.34 180)
+		(at 52.07 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -920,7 +766,7 @@
 	)
 	(hierarchical_label "~{RCLICK}"
 		(shape input)
-		(at 52.07 58.42 180)
+		(at 52.07 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -931,7 +777,7 @@
 	)
 	(hierarchical_label "SCROLLB"
 		(shape input)
-		(at 52.07 63.5 180)
+		(at 52.07 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -942,7 +788,7 @@
 	)
 	(hierarchical_label "CHARGE"
 		(shape input)
-		(at 52.07 50.8 180)
+		(at 52.07 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -953,7 +799,7 @@
 	)
 	(hierarchical_label "NEOPIXEL"
 		(shape input)
-		(at 52.07 55.88 180)
+		(at 52.07 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -964,7 +810,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 52.07 43.18 90)
+		(at 52.07 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -973,73 +819,6 @@
 		(fields_autoplaced yes)
 		(uuid "541184fd-4593-45b1-acf3-89db35561463")
 		(property "Reference" "#PWR0602"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 48.26 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 52.07 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfe5a23b-7518-4382-8c7d-0bcdec79a054")
-		)
-		(instances
-			(project ""
-				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/3f8a48d9-15ab-478a-aaa5-794276ddae05"
-					(reference "#PWR0602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 52.07 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e77285e-f1a6-47c8-a931-2fa50d54758f")
-		(property "Reference" "#PWR0604"
 			(at 55.88 40.64 0)
 			(effects
 				(font
@@ -1048,7 +827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "VBUS"
 			(at 48.26 40.6399 90)
 			(effects
 				(font
@@ -1075,7 +854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 52.07 40.64 0)
 			(effects
 				(font
@@ -1085,12 +864,106 @@
 			)
 		)
 		(pin "1"
-			(uuid "b26188a6-0841-4e6e-8157-4f683b8ad99e")
+			(uuid "bfe5a23b-7518-4382-8c7d-0bcdec79a054")
 		)
 		(instances
 			(project ""
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/3f8a48d9-15ab-478a-aaa5-794276ddae05"
-					(reference "#PWR0604")
+					(reference "#PWR0602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 57.15 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "975639b8-b14a-4dd8-ac4f-5c1ff694c949")
+		(property "Reference" "J602"
+			(at 59.69 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 59.69 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Touchpoint:Jumper_Interface_10"
+			(at 57.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24ef88f6-c695-4c03-bf2b-5b392e650ff0")
+		)
+		(pin "3"
+			(uuid "21b6181b-d56c-434e-bd56-da161b5d54e0")
+		)
+		(pin "8"
+			(uuid "7d9a1418-9f50-48ab-aece-160ba9955f33")
+		)
+		(pin "7"
+			(uuid "b58b8907-f452-4d91-a355-735305fea736")
+		)
+		(pin "2"
+			(uuid "28ca9cc3-a805-4365-b572-666e8ce7ddea")
+		)
+		(pin "4"
+			(uuid "ab54e300-8122-45bd-a7de-04876200db4d")
+		)
+		(pin "9"
+			(uuid "50250160-6c5b-4c0d-b16f-ab687faf0113")
+		)
+		(pin "10"
+			(uuid "a6653eda-456d-45d2-a93b-83d07751b56c")
+		)
+		(pin "6"
+			(uuid "19100552-654b-4286-b172-081a95fdebba")
+		)
+		(pin "5"
+			(uuid "c0fc96a1-88b8-4b2d-a393-a252534bbd7a")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/3f8a48d9-15ab-478a-aaa5-794276ddae05"
+					(reference "J602")
 					(unit 1)
 				)
 			)
@@ -1098,7 +971,7 @@
 	)
 	(symbol
 		(lib_id "power:VPP")
-		(at 52.07 45.72 90)
+		(at 52.07 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1107,7 +980,7 @@
 		(fields_autoplaced yes)
 		(uuid "9af7523e-51fa-4dc7-803d-1cfb10b720e4")
 		(property "Reference" "#PWR0603"
-			(at 55.88 45.72 0)
+			(at 55.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +989,7 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 48.26 45.7199 90)
+			(at 48.26 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 45.72 0)
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 45.72 0)
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1016,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 52.07 45.72 0)
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,103 +1098,6 @@
 			(project ""
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/3f8a48d9-15ab-478a-aaa5-794276ddae05"
 					(reference "#PWR0601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x11")
-		(at 57.15 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f88b86b5-9fd7-411b-9cc6-c18f06f10019")
-		(property "Reference" "J602"
-			(at 59.69 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x11"
-			(at 59.69 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Touchpoint:Jumper_Interface_11"
-			(at 57.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "a102a650-552c-4b93-8152-0697bc0f5e47")
-		)
-		(pin "1"
-			(uuid "9e6ccff8-c940-4106-9232-d14bad03792f")
-		)
-		(pin "2"
-			(uuid "b7dbdb6a-fd5a-472e-accc-84829501b3dd")
-		)
-		(pin "3"
-			(uuid "455cb416-100a-4f56-9ab7-41df988b4806")
-		)
-		(pin "4"
-			(uuid "4a2cd2eb-82f5-4600-b88b-2b7e721b2f3c")
-		)
-		(pin "7"
-			(uuid "ea2da9a0-f130-449b-a37b-b4de27062571")
-		)
-		(pin "11"
-			(uuid "72bd95ca-de33-4d62-8fb6-043693c541d1")
-		)
-		(pin "6"
-			(uuid "c9518c34-854c-4262-b2f1-f47c97b213a1")
-		)
-		(pin "8"
-			(uuid "70d68075-316a-4956-952e-bddb427a9df3")
-		)
-		(pin "9"
-			(uuid "b1dbcf66-a902-480a-b112-c58fb23f7716")
-		)
-		(pin "10"
-			(uuid "4797dc7c-61ce-4e9b-9261-820c46e597e7")
-		)
-		(instances
-			(project ""
-				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/3f8a48d9-15ab-478a-aaa5-794276ddae05"
-					(reference "J602")
 					(unit 1)
 				)
 			)

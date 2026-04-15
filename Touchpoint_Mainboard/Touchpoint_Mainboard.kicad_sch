@@ -5244,7 +5244,7 @@
 		(uuid "0a6fb6d6-caeb-4a10-b946-d6de46942778")
 	)
 	(label "~{BOOT}"
-		(at 146.05 113.03 0)
+		(at 146.05 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5254,7 +5254,7 @@
 		(uuid "0fb836ff-463c-4959-9f85-1021be8d60d3")
 	)
 	(label "GPIO3"
-		(at 142.24 137.16 0)
+		(at 142.24 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5264,7 +5264,7 @@
 		(uuid "10bd5594-c812-4ef1-aa23-e61c2aba9182")
 	)
 	(label "~{RESET}"
-		(at 146.05 118.11 0)
+		(at 146.05 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5364,7 +5364,7 @@
 		(uuid "23f290b1-4bbf-4a95-9ba1-b6dcbdef649d")
 	)
 	(label "GPIO27"
-		(at 149.86 99.06 0)
+		(at 149.86 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5654,7 +5654,7 @@
 		(uuid "8b6cd103-b343-4996-b7c8-fad9f704819b")
 	)
 	(label "GPIO4"
-		(at 142.24 142.24 0)
+		(at 142.24 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5704,7 +5704,7 @@
 		(uuid "95215fa7-bfe0-4d8b-92b1-69327d659706")
 	)
 	(label "GPIO13"
-		(at 146.05 115.57 0)
+		(at 146.05 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5724,7 +5724,7 @@
 		(uuid "96acbb62-b8d0-499d-93c6-311ecc0f5f76")
 	)
 	(label "GPIO26"
-		(at 149.86 96.52 0)
+		(at 149.86 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5732,6 +5732,16 @@
 			(justify left bottom)
 		)
 		(uuid "9968aa77-5df6-4dfa-8055-e73e879cbcd8")
+	)
+	(label "GPIO17"
+		(at 146.05 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aa874e2-86a4-48fe-946c-beed1d1b3c47")
 	)
 	(label "QSPI_SCLK"
 		(at 19.05 91.44 0)
@@ -5753,8 +5763,18 @@
 		)
 		(uuid "9d5fe184-8299-49fd-aedc-e5e66042ad81")
 	)
+	(label "GPIO16"
+		(at 146.05 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a59ca20f-7d58-4983-a504-9726611db000")
+	)
 	(label "GPIO5"
-		(at 142.24 129.54 0)
+		(at 142.24 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5764,7 +5784,7 @@
 		(uuid "a836cf98-0eb2-4e6e-bdf5-bf4f9fe39827")
 	)
 	(label "GPIO0"
-		(at 142.24 134.62 0)
+		(at 142.24 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5814,7 +5834,7 @@
 		(uuid "b306d6b4-8936-4088-913f-578ee5398e63")
 	)
 	(label "GPIO2"
-		(at 142.24 139.7 0)
+		(at 142.24 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5944,7 +5964,7 @@
 		(uuid "df6e5289-e4a6-4189-8060-a9793f8d320a")
 	)
 	(label "GPIO1"
-		(at 142.24 132.08 0)
+		(at 142.24 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5994,7 +6014,7 @@
 		(uuid "e9fabd81-cc7e-4a30-a6c7-8b01728960f7")
 	)
 	(label "GPIO15"
-		(at 149.86 101.6 0)
+		(at 149.86 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6002,6 +6022,16 @@
 			(justify left bottom)
 		)
 		(uuid "ebe8408e-ceaa-4f27-95c4-b363276269b4")
+	)
+	(label "GPIO18"
+		(at 146.05 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1014c33-02cd-405a-9061-042d95f61b96")
 	)
 	(label "XIN"
 		(at 234.95 55.88 180)
@@ -7066,7 +7096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 36.5252 48.26 0)
 			(effects
 				(font
@@ -7536,7 +7566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.1352 48.26 0)
 			(effects
 				(font
@@ -9836,7 +9866,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 127)
+		(at 123.19 128.27)
 		(size 19.05 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9852,7 +9882,7 @@
 		)
 		(uuid "091850a6-fc48-4da5-acfb-c3187b00b1b9")
 		(property "Sheetname" "PMW3389"
-			(at 123.19 126.2884 0)
+			(at 123.19 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +9891,7 @@
 			)
 		)
 		(property "Sheetfile" "PMW3389.kicad_sch"
-			(at 123.19 146.6346 0)
+			(at 123.19 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9870,7 +9900,7 @@
 			)
 		)
 		(pin "CS" input
-			(at 142.24 129.54 0)
+			(at 142.24 130.81 0)
 			(uuid "413f18ff-4072-4daa-995b-2240cabf48cf")
 			(effects
 				(font
@@ -9880,7 +9910,7 @@
 			)
 		)
 		(pin "INT" input
-			(at 142.24 132.08 0)
+			(at 142.24 133.35 0)
 			(uuid "f9000c21-f4c9-4c6f-8a4e-f17120cc23fb")
 			(effects
 				(font
@@ -9890,7 +9920,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 142.24 134.62 0)
+			(at 142.24 135.89 0)
 			(uuid "302a7a6f-d44d-4e1c-ad81-f274663a4943")
 			(effects
 				(font
@@ -9900,7 +9930,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 142.24 137.16 0)
+			(at 142.24 138.43 0)
 			(uuid "8e96af7d-0db6-475e-baf3-4e144cdb32f4")
 			(effects
 				(font
@@ -9910,7 +9940,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 142.24 139.7 0)
+			(at 142.24 140.97 0)
 			(uuid "ffb4f171-bf26-4217-9421-b81ceafc72c9")
 			(effects
 				(font
@@ -9920,7 +9950,7 @@
 			)
 		)
 		(pin "~{RST}" input
-			(at 142.24 142.24 0)
+			(at 142.24 143.51 0)
 			(uuid "2599a4b0-c665-443e-8dd5-e41439243e08")
 			(effects
 				(font
@@ -10112,8 +10142,8 @@
 		)
 	)
 	(sheet
-		(at 123.19 110.49)
-		(size 22.86 10.16)
+		(at 123.19 106.68)
+		(size 22.86 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10128,7 +10158,7 @@
 		)
 		(uuid "6f657165-8e13-47b4-9d47-bea92f854d29")
 		(property "Sheetname" "Buttons"
-			(at 123.19 109.7784 0)
+			(at 123.19 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10137,7 +10167,7 @@
 			)
 		)
 		(property "Sheetfile" "Buttons.kicad_sch"
-			(at 123.19 121.2346 0)
+			(at 123.19 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10176,7 @@
 			)
 		)
 		(pin "~{BOOT}" input
-			(at 146.05 113.03 0)
+			(at 146.05 109.22 0)
 			(uuid "a0d41c5a-d14f-457a-b90c-98833c3da507")
 			(effects
 				(font
@@ -10156,7 +10186,7 @@
 			)
 		)
 		(pin "~{RESET}" input
-			(at 146.05 118.11 0)
+			(at 146.05 114.3 0)
 			(uuid "dcddd4da-c457-42d7-9792-e43509529379")
 			(effects
 				(font
@@ -10166,8 +10196,38 @@
 			)
 		)
 		(pin "~{LCLICK}" input
-			(at 146.05 115.57 0)
+			(at 146.05 111.76 0)
 			(uuid "ee64cf3c-465c-4b37-90eb-37e04607d5d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RCLICK" input
+			(at 146.05 116.84 0)
+			(uuid "0cf3051e-bbcb-4e71-b70d-e36e153c5653")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCROLLA" input
+			(at 146.05 119.38 0)
+			(uuid "c41c0174-1086-491c-ad59-393de19c798e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCROLLB" input
+			(at 146.05 121.92 0)
+			(uuid "6cf65d49-d2f6-402b-97d7-7ce5afbee332")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10480,7 +10540,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 93.98)
+		(at 123.19 91.44)
 		(size 26.67 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10496,7 +10556,7 @@
 		)
 		(uuid "eee90675-6c72-4499-ad3c-d412c9e5ddd7")
 		(property "Sheetname" "Zoom_Wheel"
-			(at 123.19 93.2684 0)
+			(at 123.19 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,7 +10565,7 @@
 			)
 		)
 		(property "Sheetfile" "Zoom_Wheel.kicad_sch"
-			(at 123.19 104.7246 0)
+			(at 123.19 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +10574,7 @@
 			)
 		)
 		(pin "CHA" input
-			(at 149.86 96.52 0)
+			(at 149.86 93.98 0)
 			(uuid "542f60e1-a7dd-49a0-89fc-440cd5b33fc3")
 			(effects
 				(font
@@ -10524,7 +10584,7 @@
 			)
 		)
 		(pin "CHB" input
-			(at 149.86 99.06 0)
+			(at 149.86 96.52 0)
 			(uuid "550db614-937a-459a-bdd5-6dd880b25cb3")
 			(effects
 				(font
@@ -10534,7 +10594,7 @@
 			)
 		)
 		(pin "SW" input
-			(at 149.86 101.6 0)
+			(at 149.86 99.06 0)
 			(uuid "06bad8f7-24e5-4159-bb34-621d3aec376c")
 			(effects
 				(font

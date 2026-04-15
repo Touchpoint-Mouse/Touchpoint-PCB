@@ -847,6 +847,28 @@
 		)
 		(uuid "085222e6-d280-414b-a429-83be616cd1aa")
 	)
+	(hierarchical_label "SCROLLB"
+		(shape input)
+		(at 151.13 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e46342b-c127-446f-9e3e-fb17d74a2b17")
+	)
+	(hierarchical_label "RCLICK"
+		(shape input)
+		(at 127 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "345f9b1b-836a-4f21-9c81-b0a9d42eac36")
+	)
 	(hierarchical_label "~{RESET}"
 		(shape input)
 		(at 74.93 31.75 0)
@@ -858,6 +880,17 @@
 		)
 		(uuid "452e6c76-d1fd-42c4-bf71-3ca696fb8387")
 	)
+	(hierarchical_label "SCROLLA"
+		(shape input)
+		(at 139.7 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7770228d-4001-47ce-8049-c24745d0312f")
+	)
 	(hierarchical_label "~{LCLICK}"
 		(shape input)
 		(at 107.95 31.75 0)
@@ -868,6 +901,210 @@
 			(justify left)
 		)
 		(uuid "f516024f-17e1-4925-afc7-3df2a4478580")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 127 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "181a6b9d-43f0-41ce-b682-a1ab3957de64")
+		(property "Reference" "C804"
+			(at 129.54 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 129.54 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdd4b0b5-9016-458a-8670-86877fadb70e")
+		)
+		(pin "1"
+			(uuid "bd01d93f-280e-4bce-9643-c12ea1399c21")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "C804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_1")
+		(lib_id "power:+3.3V")
+		(at 139.7 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e327cf4-84ef-4e74-a62f-fb2d9a1df1ca")
+		(property "Reference" "#PWR0809"
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 139.7 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a77d66d3-935a-4ac1-9e0a-1c8b1aefb42b")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "#PWR0809")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_1")
+		(lib_id "power:+3.3V")
+		(at 151.13 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f3dbf18-55f3-43b8-9420-518bd1a1d323")
+		(property "Reference" "#PWR0811"
+			(at 151.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 151.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 151.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87781d0d-f749-446a-9445-40b7b6fd101a")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "#PWR0811")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -934,6 +1171,75 @@
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
 					(reference "C802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25f7c371-bd33-4d37-b8c5-b8c76c5ff8d4")
+		(property "Reference" "R804"
+			(at 129.54 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 129.54 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 125.222 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f833820f-5f8a-412b-87fb-cb94e3f80dd8")
+		)
+		(pin "2"
+			(uuid "06243c47-f71e-48ee-8f34-57552eec1093")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "R804")
 					(unit 1)
 				)
 			)
@@ -1284,6 +1590,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 151.13 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d24ff6-283c-48ed-83db-9bb056e30b91")
+		(property "Reference" "C806"
+			(at 153.67 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 153.67 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 151.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "353188f3-a4ce-4015-8e47-79b77b64b14b")
+		)
+		(pin "1"
+			(uuid "623358ff-7770-4a62-a280-6bee3b17a449")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "C806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 68.58 27.94 0)
 		(unit 1)
@@ -1490,6 +1866,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 139.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb335534-6b27-47fe-b54b-c854b9420c25")
+		(property "Reference" "C805"
+			(at 142.24 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 142.24 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "538abb26-434e-4d23-8481-f3e494136038")
+		)
+		(pin "1"
+			(uuid "47523c85-6c38-40ed-8b5f-27064b1a1781")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "C805")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
 		(at 35.56 24.13 0)
@@ -1551,6 +1997,73 @@
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
 					(reference "#PWR0802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 127 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf77c8b6-6e4b-45ad-bc39-cf45b54c2ee8")
+		(property "Reference" "#PWR0808"
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cc34945-e17e-40ca-bf22-ca8f2cd26768")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "#PWR0808")
 					(unit 1)
 				)
 			)
@@ -1624,6 +2137,140 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 151.13 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ea2b38-c465-48cf-b9ee-2799e58f116d")
+		(property "Reference" "#PWR0812"
+			(at 151.13 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4394faa7-1890-47c6-85ca-95a878040e9e")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "#PWR0812")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 139.7 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e122d9-b739-4f30-ac72-bd0e81390c30")
+		(property "Reference" "#PWR0810"
+			(at 139.7 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c42e0eb7-9d0b-45bc-9c62-2332b64e4a4e")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "#PWR0810")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
 		(at 101.6 24.13 0)
@@ -1685,6 +2332,75 @@
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
 					(reference "#PWR0806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd88f207-b5f7-41f3-b364-173e2b82300b")
+		(property "Reference" "R805"
+			(at 142.24 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 142.24 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.922 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87fd06ae-5b9d-4114-ad85-c7bc9c172dc9")
+		)
+		(pin "2"
+			(uuid "09340c61-f25c-4858-b91f-cab07b60652f")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "R805")
 					(unit 1)
 				)
 			)
@@ -1887,6 +2603,142 @@
 			(project "Touchpoint_Mainboard"
 				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
 					(reference "SW801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fda4684d-1c59-40cd-8bfc-b00093916b43")
+		(property "Reference" "R806"
+			(at 153.67 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.352 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac21d120-53e9-4dd0-b22a-c04a37bf42e6")
+		)
+		(pin "2"
+			(uuid "fb7517d6-c5c6-4f02-a7af-ec9464a5ced9")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "R806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_1")
+		(lib_id "power:+3.3V")
+		(at 127 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdf8ed86-23b1-498f-96bf-924686cb4f90")
+		(property "Reference" "#PWR0807"
+			(at 127 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 127 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 127 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cc0dd0d-a9ce-4b88-b59e-4ba87e96cca6")
+		)
+		(instances
+			(project "Touchpoint_Mainboard"
+				(path "/f37b5f88-420a-4646-85df-8f9851d23e3c/6f657165-8e13-47b4-9d47-bea92f854d29"
+					(reference "#PWR0807")
 					(unit 1)
 				)
 			)
