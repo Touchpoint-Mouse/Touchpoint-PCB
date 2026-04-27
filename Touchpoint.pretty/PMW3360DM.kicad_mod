@@ -364,7 +364,7 @@
 	(embedded_fonts no)
 	(model "C:/Users/carso/Documents/GitHub/Touchpoint-Mouse/Touchpoint-PCB/models/PMW3360 v12 v1.step"
 		(offset
-			(xyz -5.675 -5.35 3)
+			(xyz -5.675 -5.35 2.125)
 		)
 		(scale
 			(xyz 1 1 1)

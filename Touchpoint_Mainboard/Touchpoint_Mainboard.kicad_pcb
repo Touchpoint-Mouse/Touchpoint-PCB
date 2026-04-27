@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.67)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.58)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -13798,7 +13837,7 @@
 		(property "Reference" "U301"
 			(at 3.15 -1.65 0)
 			(layer "F.SilkS")
-			(uuid "71e4a4ba-2c1a-478d-a395-65ccbe72e3a6")
+			(uuid "7fb03eb0-ff92-4b80-b2b5-3b98968891d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,10 +13845,10 @@
 				)
 			)
 		)
-		(property "Value" "PMW3360DM"
+		(property "Value" "Val**"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "e93a6076-1287-4bdb-8be7-9b24cc703e26")
+			(uuid "2a1a860c-e179-4475-80f3-3f1aebe441ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13821,7 +13860,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5adfce55-f880-4002-bc56-f02a9da554e5")
+			(uuid "d667c20f-b13f-4409-939f-1c2b51972c23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13833,7 +13872,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d09de3f-a064-4deb-b58b-6c095aea8f61")
+			(uuid "ff56e852-c034-4a06-b295-e9db0d41900a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13852,7 +13891,7 @@
 				(type solid)
 			)
 			(layer "Cmts.User")
-			(uuid "9d120a6f-8477-4cdb-a42f-f42c8b36ad0f")
+			(uuid "48052eca-33c3-40fd-b285-951b564f72b6")
 		)
 		(fp_line
 			(start -5.66 4.76)
@@ -13862,7 +13901,7 @@
 				(type solid)
 			)
 			(layer "Cmts.User")
-			(uuid "9f76b1aa-5b4e-4d02-be88-71924e6644c4")
+			(uuid "764b2975-707c-494c-a46f-19d28d076ebe")
 		)
 		(fp_line
 			(start -13.98 9.65)
@@ -13872,7 +13911,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d51291c9-aea9-4230-94f7-04c980628f5c")
+			(uuid "acaeef33-889c-4196-8c78-f2a901201efd")
 		)
 		(fp_line
 			(start 2.78 9.15)
@@ -13882,7 +13921,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d9515630-2d64-4326-b288-23b9dee17c33")
+			(uuid "feb85e8d-2cb0-4318-ae1d-44d6af2bacf5")
 		)
 		(fp_line
 			(start -14.48 1.55)
@@ -13892,7 +13931,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "8bf6ec69-d4b6-4937-bc85-6ce8ebb9c5dc")
+			(uuid "c0d5ae15-5a3f-4f93-a39e-8c7b7a205549")
 		)
 		(fp_line
 			(start 2.28 1.05)
@@ -13902,7 +13941,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b7929c15-dd9a-4ae1-9ee1-92ade095ad2d")
+			(uuid "241ae59c-66ae-4363-aadc-772d5ba235c5")
 		)
 		(fp_arc
 			(start -13.98 9.65)
@@ -13913,7 +13952,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c7fdb9a6-b5b5-4a88-89fe-e0751e3b26de")
+			(uuid "df731110-eb21-49a9-bbc3-055af39634cc")
 		)
 		(fp_arc
 			(start 2.78 9.15)
@@ -13924,7 +13963,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "12c3cfa3-829e-401e-bc91-9546ef63e54e")
+			(uuid "f7155d6e-a5dd-4cd1-bbac-c8bfa30bf215")
 		)
 		(fp_arc
 			(start -14.48 1.55)
@@ -13935,7 +13974,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d31eee29-8747-4b57-8a4b-de654391c996")
+			(uuid "3d1b1e81-c2d5-437c-a4e7-0b6af6f670a9")
 		)
 		(fp_arc
 			(start 2.28 1.05)
@@ -13946,7 +13985,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9fdbff26-da52-4f7e-9c75-6ce433cadad3")
+			(uuid "623ddbac-7ed9-4425-a1fb-76885706fc13")
 		)
 		(pad "P$1" thru_hole rect
 			(at 0 0 270)
@@ -14144,7 +14183,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.Cu")
-			(uuid "4557b7f1-f5e6-467f-ab51-16d5cf4bb016")
+			(uuid "cb57c471-f383-42ce-bda0-8039656bd569")
 			(hatch edge 0.508)
 			(connect_pads
 				(clearance 0)
@@ -14176,7 +14215,7 @@
 			(net 0)
 			(net_name "")
 			(layer "B.Cu")
-			(uuid "8b725228-9514-4d34-9685-b2c7ba7766df")
+			(uuid "78b1942a-3a61-40f5-bbb2-5607569ef7a5")
 			(hatch edge 0.508)
 			(connect_pads
 				(clearance 0)
@@ -14207,7 +14246,7 @@
 		(embedded_fonts no)
 		(model "C:/Users/carso/Documents/GitHub/Touchpoint-Mouse/Touchpoint-PCB/models/PMW3360 v12 v1.step"
 			(offset
-				(xyz -5.675 -5.35 3)
+				(xyz -5.675 -5.35 2.125)
 			)
 			(scale
 				(xyz 1 1 1)
